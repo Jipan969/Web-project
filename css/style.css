@@ -1,0 +1,311 @@
+/* font import*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Ramdom CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Titillium Web, sans-serif;
+    ;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* global css */
+.row {
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.writing-part {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.writing-part h1 {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.writing-part p {
+    width: 40%;
+    margin: auto;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.box-part {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.box {
+    float: left;
+    margin: 20px 0;
+}
+.box p {
+    width: 70%;
+    margin: auto
+}
+.sub-heading{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+    padding-top: 50px;
+    padding-top: 50px;
+}
+.container  .underline{
+    border-top: 4px solid black;
+    width: 6%;
+    opacity: 0.2;
+    margin: auto;
+}
+.btn{
+    width: 300px;
+    font-size: 15px;
+    padding: 18px 0;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* header css */
+header {
+    background-color: #87509c;
+    padding-top: 50px;
+}
+header .logo-area{
+    width: 50%;
+    float: left;
+}
+.logo-area .logo{
+    cursor: pointer;
+}
+header .nav-bar{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+header .nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+
+}
+header .nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+header .nav-bar ul li a:hover{
+    background-color: #643a79;
+
+}
+.hero-part{
+    text-align: center;
+    padding: 50px;
+}
+.hero-part h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+header .btn{
+    background-color: #eb7d4b;
+    margin: 30px 0;
+}
+
+/* services section css */
+#services {
+    background-color: #17c2a4;
+    color: #fff;
+    justify-content: center;
+}
+#sevices .box-part .box img{
+    height: 150px;
+}
+/* teams section css */
+#teams {
+    background-color: #e7f1f8;
+}
+#teams .icons{
+    padding: 0 30px;
+    color: #bdd1df;
+    font-size: 30px;
+}
+
+/* skill section css */
+#skills {
+    background-color: #ffffff;
+}
+
+/* port-polio secion css */
+#portfolio {
+    background-color: #ffdd99;
+}
+.nav-area{
+    margin: auto;
+    text-align: center;
+    
+}
+.nav-area a{
+    text-decoration: none;
+    background-color: #ebc985;
+    padding: 5px 20px;
+    color: black;
+    border-radius: 5px ;
+}
+.nav-area ul li a:hover{
+    background-color: #fff;
+}
+.nav-area ul{
+    list-style: none;
+}
+.nav-area ul li{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+
+}
+#portfolio .writing-part p {
+    padding: 10px 0;
+}
+#portfolio .nav-area{
+    padding: 30px 0;
+}
+#portfolio .first-part{
+    padding-top: 30px;
+}
+#portfolio .box p{
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-size: 18px;
+}
+#portfolio .btn{
+    background-color: #17c2a4;
+    margin: 5%;
+}
+/* about us secion css */
+#about-us {
+    background-color: #d74680;
+}
+
+/* review section css */
+#review-us {
+    background-color: #3c5499;
+    text-align: center;
+    content-justify: center;
+    margin: auto;
+}
+#review-us .input-part input{
+    width: 25%;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #273a71;
+    color: #fff;
+    margin: 20px 0;
+}
+#review-us textarea{
+    width: 70%;
+    display: block;
+    margin: auto;
+    height: 200px;
+    background-color: #273a71;
+    color: #fff;
+}
+#review-us .btn{
+    background-color: #30bae7;
+    margin: 100px;
+}
+#review-us .btn:hover{
+    background-color: #2277af;
+    color: #ffffff;
+}
+/* footer section css */
+footer {
+    background-color: #344b8e;
+    margin: auto;
+    text-align: center;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer ul li a:hover{
+    color: #30bae7;
+}
